@@ -127,8 +127,13 @@ void TestIsPalindrom(){
 
 
 int main() {
+
   TestRunner runner;
+
+  map<int, int> m;
+
   runner.RunTest(TestIsPalindrom, "TestIsPalindrome");
   // добавьте сюда свои тесты
+
   return 0;
 }
